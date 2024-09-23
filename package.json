@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.56.2",
     "clsx": "^2.1.1",
     "eslint-config-prettier": "^9.1.0",
     "formik": "^2.4.6",
