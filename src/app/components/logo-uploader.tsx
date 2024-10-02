@@ -1,8 +1,8 @@
 'use client';
 
-import clsx from 'clsx';
-import Image from 'next/image';
 import React from 'react';
+import Image from 'next/image';
+import clsx from 'clsx';
 
 export interface LogoUploaderProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'> {
@@ -11,10 +11,10 @@ export interface LogoUploaderProps
 }
 
 export default function LogoUploader({
+  square,
   label,
   placeholder,
   id,
-  square,
   ...rest
 }: LogoUploaderProps) {
   return (
@@ -29,7 +29,7 @@ export default function LogoUploader({
       <label
         htmlFor={id}
         className={clsx(
-          'flex flex-col items-center justify-center w-40 h-40 bg-white border border-slate-900 border-dashed cursor-pointer',
+          'flex flex-col items-center justify-center h-40 bg-white border border-slate-900 border-dashed cursor-pointer',
           !square && 'w-40 rounded-full',
           square && 'w-full',
         )}
@@ -38,8 +38,8 @@ export default function LogoUploader({
           className="mb-1"
           width={48}
           height={48}
-          src="/icons/cloud-arrow-down.svg"
-          alt="photo upload"
+          src="/icons/upload.svg"
+          alt="upload"
         />
         {placeholder && (
           <p className="text-base text-gray-500">{placeholder}</p>
