@@ -24,6 +24,7 @@ export default function Sidebar({}: SidebarProps) {
           height={25}
           src="/icons/logo.svg"
           alt="logo"
+          onClick={handleExitClick}
         />
         <ul className="space-y-7">
           <SidebarItem
