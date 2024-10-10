@@ -15,8 +15,10 @@ export default function Header({ children }: HeaderProps) {
       <div className="flex gap-3">
         <Image width={44} height={44} src="/images/avatar.png" alt="avatar" />
         <div>
-          <p className="text-base	font-semibold text-gray-900">Adam Smith</p>
-          <p className="text-sm	font-light text-gray-900">adamsmith@gmail.com</p>
+          <p className="text-base	font-semibold text-gray-900">Alex Garcia</p>
+          <p className="text-sm	font-light text-gray-900">
+            alexgarcia@gmail.com
+          </p>
         </div>
       </div>
     </header>

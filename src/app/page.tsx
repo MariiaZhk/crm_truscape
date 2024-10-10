@@ -21,8 +21,9 @@ export default function Home() {
         <div>
           <h1 className="text-5xl font-bold">Welcome to Truscape CRM</h1>
           <p className="mt-6 text-3xl">
-            Easily manage your clients, companies, and track your sales
-            performance
+            Manage your business effectively . <br />
+            Streamline processes, enhance productivity, and improve client
+            relationships.
           </p>
         </div>
       </main>
