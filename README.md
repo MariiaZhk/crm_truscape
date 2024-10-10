@@ -20,10 +20,11 @@ Check out the live version here: [CRM Truscape Live](https://crm-truscape-one.ve
 
 ## Technologies Used
 
-- **[Next.js](https://nextjs.org/)**: A React framework for server-rendered applications and static sites.
-- **[React](https://reactjs.org/)**: JavaScript library for building user interfaces.
-- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
-- **[TypeScript](https://www.typescriptlang.org/)**: A typed superset of JavaScript.
-- **[Headless UI](https://headlessui.dev/)**: Accessible UI components with no styles imposed.
-- **[React Query](https://tanstack.com/query/latest)**: For data-fetching and state management in React.
-- **[Formik](https://formik.org/)**: Form management and validation made easy.
+**[Next.js](https://nextjs.org/)**: Used for building server-rendered applications and static sites, enhancing performance and SEO.
+
+- **[React](https://reactjs.org/)**: Utilized for building user interfaces, enabling a component-based architecture.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Employed for rapid UI development with utility classes, promoting a responsive design.
+- **[TypeScript](https://www.typescriptlang.org/)**: Implemented for type safety and better development experience in JavaScript projects.
+- **[Headless UI](https://headlessui.dev/)**: Used for accessible UI components without predefined styles, allowing for custom styling.
+- **[React Query](https://tanstack.com/query/latest)**: Utilized for efficient data fetching and caching, streamlining server state management.
+- **[Formik](https://formik.org/)**: Implemented for forms data management and validation, simplifying form handling in React.git
