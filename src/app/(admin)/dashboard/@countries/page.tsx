@@ -27,13 +27,15 @@ export default async function Page({}: PageProps) {
             >{`${title} - ${counts[id] || 0}`}</p>
           ))}
         </div>
-        <Image
-          width={395}
-          height={262}
-          src="/images/world.svg"
-          alt="world"
-          style={{ width: '395px', height: '262px' }}
-        />
+        <div className="relative w-[395px] h-[262px]">
+          <Image
+            src="/images/world.svg"
+            alt="world"
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
       </div>
     </DashboardCard>
   );
