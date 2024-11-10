@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import clsx from 'clsx';
@@ -16,7 +15,12 @@ export default function CompanyRow({ company }: CompanyRowProps) {
         {company.categoryTitle}
       </td>
       <td>
-        <Link href={`/companies/${company.id}`}>{company.title}</Link>
+        <Link
+          href={`/companies/${company.id}`}
+          className="hover:text-blue-700 underline"
+        >
+          {company.title}{' '}
+        </Link>
       </td>
       <td>
         <StatusLabel status={company.status} />

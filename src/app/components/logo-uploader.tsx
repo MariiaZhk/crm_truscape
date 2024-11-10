@@ -40,6 +40,7 @@ export default function LogoUploader({
           height={48}
           src="/icons/upload.svg"
           alt="upload"
+          priority
         />
         {placeholder && (
           <p className="text-base text-gray-500">{placeholder}</p>
